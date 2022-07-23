@@ -53,7 +53,3 @@ async def get_recruitment_trials(recruiting: bool):
 # TODO: Países que tengas estudios clínicos de tratamientos en fase 4
 # TODO: Correo electrónico de centros de investigación que estén realizando ensayos clínicos con vacunas
 # TODO: Página web de resultados de estudios clínicos realizados en cierto país
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
